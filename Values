@@ -1,0 +1,45 @@
+Code for "colors.xml" :
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">#673AB7</color>
+    <color name="colorAccent">#E91E76</color>
+    <color name="background">#0000BCD4</color>
+    <color name="homebackground">#0000BCD4</color>
+    <color name="pink">#F393EA</color>
+    <color name="purple">#FFDB00FF</color>
+</resources>
+
+Code for "strings.xml" :
+
+<resources>
+    <string name="app_name">News Authentication App</string>
+    <string name="username">Username</string>
+    <string name="password_lgn">Password</string>
+    <string name="login">Login</string>
+    <string name="oops_you_are_not_registered">Oops!! You are not registered!!</string>
+    <string name="wish_to_register">Register</string>
+    <string name="login_btn">Login</string>
+    <string name="register_btn">Register</string>
+    <string name="continue_without_registration">Continue without registration</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="password_signup">Password</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="sign_up_btn">Sign Up</string>
+</resources>
+
+Code for "styles.xml" :
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
